@@ -1,4 +1,5 @@
 #Sample deployment manifest file to create the deployment
+#https://medium.com/platformer-blog/enable-rolling-updates-in-kubernetes-with-zero-downtime-31d7ec388c81
 apiVersion: apps/v1
 kind: Deployment
 metadata:
