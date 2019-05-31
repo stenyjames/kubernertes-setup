@@ -1,13 +1,26 @@
+#Create Dev namespace
+apiVersion: v1
 kind: Namespace
 apiVersion: v1
 metadata:
-  name: development
+  name: dev1
   labels:
-    name: development
-  name: test
+    name: dev1
+
+---
+apiVersion: v1
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: test1
   labels:
-    name: test
-  name: production
+    name: test1
+
+---
+apiVersion: v1
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: prod1
   labels:
-    name: production
-    
+    name: prod1
